@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .main-div {
+            position: relative;
+            left: 500px;
+        }
+
+        .parant {
+            width: 100%;
+            height: 500px;
+            background-color: aquamarine;
+            margin-bottom: 20px;
+
+        }
+
+        .child img {
+            position: relative;
+            top: 200px;
+            transition: transform 5s ease-in-out 1s;
+
+        }
+
+        .parant:hover img {
+            transform: translate(1090px, 0);
+        }
+
+
+        th:hover,
+        th:hover,
+        td:hover {
+            background-image: linear-gradient(black, rgba(47, 47, 95, 0.192));
+            overflow: none;
+            color: whitesmoke;
+
+
+        }
+
+        table {
+
+            height: 500px;
+            width: 500px;
+            /* border-collapse: collapse; */
+
+
+        }
+
+        tr:nth-child(2n) {
+            background-color: brown;
+        }
+
+
+
+
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+            border-radius: 10px;
+
+
+        }
+
+
+        .table {
+            position: relative;
+            left: 500px;
+
+        }
+
+        .annimation {
+            width: 100%;
+            height: 700px;
+
+            background-color: rgb(105, 68, 68);
+            /* position: relative;
+            bottom: 200px; */
+
+            /* 
+            animation: name 12s ease-in-out 0.9s infinite;
+            animation-play-state: running; */
+        }
+
+        /* .annimation:hover {
+            transform: translate(1090px, 0);
+        } */
+        .ball {
+            text-align: center;
+            width: 6%;
+            height: 70px;
+            border-radius: 45px;
+            color: royalblue;
+            background-color: pink;
+            position: relative;
+            animation: start 15s ease-in-out infinite alternate;
+            animation-play-state: running;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+
+        }
+
+        .annimation:hover .ball {}
+
+
+
+
+        @keyframes start {
+            0% {
+                background-color: aquamarine;
+
+                left: 10px;
+                top: 0;
+
+            }
+
+            25% {
+                background-color: black;
+                top: 600px;
+
+
+            }
+
+            30% {
+                background-color: brown;
+
+                top: 0
+            }
+
+            40% {
+                top: 600px
+            }
+
+            50% {
+                top: 0;
+
+            }
+
+            65% {
+                top: 600px;
+
+            }
+
+            70% {
+                top: 0
+            }
+
+            75% {
+                top: 600px;
+
+
+            }
+
+            100% {
+                left: 1150px;
+                top: 00px;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <main class="parant">
+            <div class="child">
+                <img src="Car-Right-Red-icon.png" alt="">
+
+            </div>
+        </main>
+    </header>
+    <div class="annimation">
+
+        <div class="ball">
+            avik
+
+
+        </div>
+    </div>
+
+
+
+    <div class="table">
+        <table class="elleps">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>YEAR</th>
+                    <th>EANRING</th>
+                    <th>HABBIT</th>
+                    <th>INVEST</th>
+                    <th>TYPE</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+
+
+                <tr>
+                    <td> opy</td>
+                    <td> 22</td>
+                    <td> good</td>
+                    <td> bad habbit</td>
+                    <td>good</td>
+                    <td>not an honest </td>
+                </tr>
+                <tr>
+                    <td>pronoy</td>
+                    <td>23</td>
+                    <td> good</td>
+                    <td> bad habbit</td>
+                    <td>good</td>
+                    <td>not an honest </td>
+                </tr>
+                <tr>
+                    <td>unmsh</td>
+                    <td>19</td>
+                    <td> good</td>
+                    <td> bad habbit</td>
+                    <td>good</td>
+                    <td>not an honest </td>
+                </tr>
+                <tr>
+                    <td>prapta</td>
+                    <td>10</td>
+                    <td> good</td>
+                    <td> bad habbit</td>
+                    <td>good</td>
+                    <td>not an honest </td>
+                </tr>
+                <tr>
+                    <td id="lafalafi">showrav</td>
+                    <td>20</td>
+                    <td> good</td>
+                    <td> bad habbit</td>
+                    <td>good</td>
+                    <td>not an honest </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="main-div">
+        <h1 class="h1">inline elements</h1>
+        <ol class="ol1">
+            <li>
+                a tag,
+            </li>
+
+            <li>br teg,</li>
+            <li>span,</li>
+            <li> sup,</li>
+            <li>sub</li>
+            <li>,i</li>
+            <li>,b</li>
+            <li>,abbr,</li>
+            <li>img,</li>
+            <li>q,</li>
+            <li>cite,</li>
+            <li>input,</li>
+            <li>output,</li>
+            <li>button,</li>
+
+        </ol>
+        <br><br>
+
+        <h1>block elements</h1>
+        <ol>
+            <li>div</li>
+            <li>p</li>
+            <li>header</li>
+            <li>section</li>
+            <li>h1-h6</li>
+            <li>main</li>
+            <li> address </li>
+            <li>form</li>
+            <li>pre</li>
+            <li>table</li>
+            <li>nav</li>
+            <li>li</li>
+            <li>ul</li>
+            <li>ol</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>

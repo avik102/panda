@@ -1,0 +1,38 @@
+
+.swmming img{ width: 20%; 
+   
+} 
+#change{ position: absolute;
+    z-index: -1;
+    left: 100px;
+    bottom: 190px;
+}
+
+.location{
+    height: 150px;
+    width: 250px;
+    background-color: chocolate;
+}
+ section #sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+.main1 a{
+    font-size: 40px;
+    background-color: rgb(138, 36, 22);
+    position: inline-block;
+    margin-left: 29px;
+    margin-top: -90%;
+
+}
+.main1:hover{
+    font-size: 90px;
+    background-color: rgb(7, 214, 135);
+    position: block;
+    margin-left: 29px;
+
+}

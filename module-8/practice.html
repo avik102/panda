@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice time</title>
+    <link rel="shortcut icon" href="download.jpg" type="image/x-icon">
+    <style>
+        .box1 {
+            margin-top: 20%;
+            width: 100%;
+            height: 600px;
+            border: 1px solid;
+            display: flex;
+            /* border: 1px solid;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; */
+        }
+
+        .box2 {
+            width: 100px;
+            height: 300px;
+            background-color: green;
+            border: 1px solid;
+            order: 2;
+            /* backg
+            round-color: burlywood;
+            border: 1px solid;
+            border-color: brown;
+            height: 100px;
+            width: 100px; */
+
+        }
+
+        .box3 {
+            flex-grow: 1;
+            order: 1;
+            /* flex-grow: 1; */
+
+
+        }
+
+        .box {
+            width: 100%;
+            height: 500px;
+            border: 1px solid gray;
+            display: flex;
+        }
+
+        .box-x {
+            width: 400px;
+            height: auto;
+            background-color: lightseagreen;
+
+        }
+
+        .box-y {
+            flex-grow: 1;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .nav-er-div {
+
+            margin: 10px;
+
+
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: 700;
+            font-size: 23px;
+            color: black;
+
+
+        }
+
+        nav a:hover {
+            background-color: grey;
+            border-radius: 10px;
+            color: white;
+
+
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .input {
+
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+
+        }
+
+        .input input {
+            font-size: 1em;
+            border-color: rgb(32, 31, 31);
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .button {
+            background-color: blueviolet;
+        }
+
+
+        .grid-view {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px 15px;
+        }
+
+        .number {
+            border: 1px solid red;
+        }
+
+        .clander {
+
+            height: 600px;
+            display: grid;
+            grid-gap: 1em;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 2em repeat(5, 1fr);
+        }
+
+        .date,
+        .day {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cadetblue;
+            border-radius: 5px;
+            font-size: 2em;
+        }
+
+        .other {
+            background-color: darkkhaki;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clander">
+        <div class="day">s</div>
+        <div class="day">m</div>
+        <div class="day">t</div>
+        <div class="day">w</div>
+        <div class="day">th</div>
+        <div class="day">f</div>
+        <div class="day">sa</div>
+        <div class="date other">30</div>
+        <div class="date other">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date other">1</div>
+        <div class="date other">2</div>
+        <div class="date other">3</div>
+    </div>
+
+
+
+
+
+
+    <main class="grid-view">
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+        <div class="number">10</div>
+    </main>
+    </section>
+
+
+    <header>
+        <nav class="nav">
+            <div class="nav-er-div">
+                <a href="">home</a>
+                <a href="">house</a>
+                <a href="">live</a>
+                <a href=""> love</a>
+                <a href=""> fall</a>
+            </div>
+            <div class="nav-er-div">
+                <a href="">log in</a>
+                <a href="">log out</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="form">
+        <form class="input" action="">
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <input type="password" name="password" id="password" placeholder="input password" required>
+            <input class="button" type="button" value="submit">
+        </form>
+    </section>
+
+
+
+
+
+    <div class="box1">
+
+        <div class="box2"> ami jete chai</div>
+
+        <div class=" box2">ami jabho na</div>
+        <div class="box3 box2">ami jabho na</div>
+
+
+    </div>
+    <div class="box">
+        <div class="box-x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod neque quidem doloremque,
+            itaque nostrum iusto cumque delectus, omnis, debitis minus voluptatibus in at modi veniam consectetur
+            dolores sit deleniti.</div>
+        <div class=" box-y box-x">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate repellat ad
+            libero
+            aliquid tempore at porro. Vero doloremque suscipit ratione, perspiciatis animi possimus, veniam unde ipsum
+            amet aliquid tenetur maxime.</div>
+    </div>
+
+
+
+</body>
+
+</html>

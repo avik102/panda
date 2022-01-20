@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+
+    <style>
+        .main {
+            border: 1px solid;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .child {
+
+            background-color: burlywood;
+            border: 1px solid;
+            border-color: brown;
+            height: 100px;
+            width: 100px;
+            order: 1;
+            /* eikhane order 1 diye  1st div k bujanu hoiche. */
+
+
+
+            /* transition: transform 2s ease-in-out; */
+        }
+
+        .grow {
+            flex-grow: 1;
+            order: 2;
+            /* eikhane order 2 diye  2nd div k bujanu hoiche. */
+
+        }
+
+        /* .main:hover .child {
+            transform: rotate(180deg);
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="child"> gh</div>
+        <div class="child grow">hgh</div>
+
+    </div>
+</body>
+
+</html>
